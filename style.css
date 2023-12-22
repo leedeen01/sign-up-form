@@ -9,7 +9,7 @@
 
 }
 .left {
-    background: url(../images/background-image.jpg) no-repeat center center/ cover;
+    background: url(./images/background-image.jpg) no-repeat center center/ cover;
     width: 35%;
     flex-shrink: 0;
     display: flex;
