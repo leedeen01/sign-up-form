@@ -9,7 +9,7 @@
 
 }
 .left {
-    background: url(/images/background-image.jpg) no-repeat center center/ cover;
+    background: url(../images/background-image.jpg) no-repeat center center/ cover;
     width: 35%;
     flex-shrink: 0;
     display: flex;
@@ -46,6 +46,7 @@
 .form {
     box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
     padding: 20px;
+    background-color: antiquewhite;
 
 }
 
@@ -72,7 +73,7 @@
 }
 
 button {
-    background-color: green;
+    background-color: white;
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 10px;
