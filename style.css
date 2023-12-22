@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    flex-grow: 1;
+
+}
+.left {
+    background: url(/images/background-image.avif) no-repeat center center/ cover;
+    width: 35%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.logo {
+    width: 8vw;
+}
+
+.right {
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.intro {
+    margin: 15px;
+}
+.form {
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    padding: 20px;
+
+}
+
+.input-form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-size: 0.7rem;
+    opacity: 50%;
+}
+
+.title {
+    margin-bottom:15px;
+}
+
+.user-option {
+    margin: 20px 15px;
+}
+
+button {
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.prompt {
+    margin: 15px;
+}

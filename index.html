@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main class="container">
+        <div class="left">
+            <div class="header">
+                <img src="images/odin-lined.png" class="logo">
+                <div class="name">Sign-Up Form</div>
+            </div>
+        </div>
+        <div class="right">
+           <p class="intro">This is not a real online service! 
+            You know you need something like this in your life to help you realize your deepest dreams. 
+            Sign up now to get started.
+            <div class="prompt"><strong>You know you want to</strong></div>
+           </p>
+            <form>
+                <div class="form">
+                    <legend class="title">Lets do this!</legend>
+                    <div class="input-form">
+                        <div class="inputs">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" />
+                        </div > 
+                        <div class="inputs">                    
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name" />
+                        </div >
+                        <div class="inputs">
+                            <label for="user-email">EMAIL</label>
+                            <input type="email" id="user-email" name="user-email" required/>
+                        </div > 
+                        <div class="inputs">                    
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input  
+                                type="tel" 
+                                id="phone-number" 
+                                autocomplete="tel" 
+                                pattern="^(\((\d{2})\)|(\d{2}))+?(\d{8})" 
+                                placeholder=" "
+                                oninvalid="this.setCustomValidity('Please use (+65) 8765 4321 or 8765 4321)"
+                                oninput="this.setCustomValidity('')">
+                        </div >
+                        <div class="inputs">                    
+                            <label for="password">PASSWORD</label>
+                            <input required type="text" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain atleast 8 characters, 1 digit, 1 uppercase and 1 lower case letter"/>
+                        </div > 
+                    <div class="inputs">                    
+                            <label for="confirm-passsword">CONFIRM PASSWORD</label>
+                            <input type="text" id="confirm-passsword" name="confirm-passsword" />
+                        </div > 
+                    </div>
+                </div>
+                <div class="user-option">
+                    <button type="submit" class="create-acc">Create Account</button>
+                    <p>
+                        Already have an account? <a href="">Log in</a>
+                    </p>
+                </div>
+            </form>
+
+        </div>
+    </main>
+</body>
+</html>
